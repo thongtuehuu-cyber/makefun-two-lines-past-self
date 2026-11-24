@@ -10,7 +10,7 @@ beyond the output directory.
 import os
 
 ENTRY = (
-    "When the hospital calls at 2 a.m., don't tell them you'll come in the morning — drive there now.\n"
+    "When the hospital calls at 2 a.m., don't tell them you'll come in the morning \u2014 drive there now.\n"
     "Those six hours are the last ones your father is awake, and he spends them waiting for you."
 )
 
@@ -54,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
